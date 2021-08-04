@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 90px;
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-175%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content .textBox
+{
+    width: 100%;
+    position: absolute;
+    transform: translateY(150%);
+    text-align: center;
+}
+.content .textBox h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.content .textBox p
+{
+    font-size: 1.2em;
+    color: #333;
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #009688;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
+.content .textBox2
+{
+    width: 100%;
+    position: absolute;
+    transform: translateY(-20%);
+    text-align: center;
+}
+.content .textBox2 h2
+{
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.content .textBox2 p
+{
+    font-size: 1.2em;
+    color: #333;
+}
+.content .textBox2 a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #009688;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    transform: translateY(55%);
+    z-index: 1;
+}
+.container .card
+{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+.container .card .cardcontent
+{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.container .card .cardcontent h2
+{
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+.container .card .cardcontent p
+{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+.websiteby h3
+{
+    position: center;
+    transform: translateY(1445%);
+    color: rgb(58, 55, 55);
+}
