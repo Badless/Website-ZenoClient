@@ -97,19 +97,19 @@
 }
 .container
 {
-    position: center;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1300px;
     flex-wrap: wrap;
     transform: translateY(55%);
-    transform: translateX(50%);
+    transform: translateX(20%);
     z-index: 1;
 }
 .container .card
 {
-    position: center;
+    position: relative;
     width: 280px;
     height: 400px;
     margin: 30px;
