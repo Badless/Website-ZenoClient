@@ -97,7 +97,7 @@
 }
 .container
 {
-    position: relative;
+    position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,7 @@
 }
 .container .card
 {
-    position: relative;
+    position: center;
     width: 280px;
     height: 400px;
     margin: 30px;
@@ -144,6 +144,6 @@
 .websiteby h3
 {
     position: center;
-    transform: translateY(1555%);
+    transform: translateY(1445%);
     color: rgb(58, 55, 55);
 }
