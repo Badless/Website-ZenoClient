@@ -53,9 +53,10 @@
 .content .textBox a
 {
     display: inline-block;
+    background: rgb(14,0,255);
     margin-top: 20px;
     padding: 15px 30px;
-    color: rgb(179,179,179);
+    color: rgb(133,143,175);
     font-size: 1.2em;
     border-radius: 40px;
     font-weight: 700;
