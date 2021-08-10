@@ -64,6 +64,20 @@
     text-decoration: none;
     user-select: none;
 }
+.content .textBox a:hover
+{
+    display: inline-block;
+    background: #000000;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #858585;
+    font-size: 1.2em;
+    border-radius: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    user-select: none;
+}
 .content .textBox2
 {
     width: 100%;
