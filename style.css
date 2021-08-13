@@ -63,6 +63,7 @@
     letter-spacing: 1px;
     text-decoration: none;
     user-select: none;
+    curson: pointer;
 }
 .content .textBox a:hover
 {
